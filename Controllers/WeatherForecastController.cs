@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace NetApiRestExample.Controllers
 {
+    // este controller generico se va fuera
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
